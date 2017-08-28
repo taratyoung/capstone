@@ -6,7 +6,7 @@
             /*background-color: lightgray;*/
             /*box-sizing: border-box;*/
         }
-        /*Header Starts Here*/
+        /*Header - Start*/
         
         header {
             /*border: 2px dashed limegreen;*/
@@ -21,7 +21,7 @@
         .nav-container {
             /*border: 1px dashed yellow;*/
             align-items: center;
-            background-color: whitesmoke;
+            background-color: #fff;
             color: dimgray;
             display: flex;
             height: 64px;
@@ -31,7 +31,7 @@
         }
         
         .logo {
-            /*border: 1px dashed yellow;*/
+            border: 1px dashed yellow;
             align-items: center;
             display: flex;
         }
@@ -77,7 +77,7 @@
         
         .banner-container {
             /*border: 2px dashed limegreen;*/
-            background-color: lightgray;
+            background-color: whitesmoke;
             display: flex;
             height: 500px;
             justify-content: center;
@@ -213,7 +213,7 @@
             /*border: 1px solid blue;*/
             /*display: inline-block;*/
             /*display: block;*/
-            color: #444;
+            color: #888;
             font-size: .65rem;
             font-weight: 300;
         }
@@ -238,30 +238,30 @@
         }
         
         .rows p {
-            color: #444;
+            color: #888;
             font-size: .75rem;
             font-weight: 300;
             margin-bottom: .5rem;
         }
         
         .rows a {
-            color: red;
+            color: limegreen;
             font-size: .75rem;
             font-weight: 300;
             text-decoration: none;
         }
         
         .rows a:hover {
-            color: firebrick;
+            color: lime;
             font-size: .75rem;
-            font-weight: 300;
+            font-weight: 500;
             text-decoration: underline;
         }
         
         .rows .row-one {
             border-top: 0;
             border-bottom: 1px solid lightgray;
-            margin-bottom: .0125rem;
+            margin-bottom: .125rem;
             padding: 0 0 16px 16px;
         }
         
@@ -286,7 +286,7 @@
         .rows .row-two {
             border-top: 1px solid lightgray;
             border-bottom: 1px solid lightgray;
-            margin-bottom: .0125rem;
+            margin-bottom: .125rem;
             padding: 16px 0 16px 16px;
         }
         
@@ -309,10 +309,10 @@
         }
         
         .rows .row-three {
-            background-color: lightgray;
-            /*border-top: 1px solid lightgray;
+            background-color: whitesmoke;
+            border-top: 1px solid lightgray;
             border-bottom: 1px solid lightgray;
-            margin-bottom: .125rem;*/
+            /*margin-bottom: .125rem;*/
             padding: 16px 0 16px 16px;
         }
         
@@ -404,7 +404,7 @@
         
         .items-container .category {
             display: block;
-            color: #444;
+            color: #888;
             font-size: 1rem;
             font-weight: 200;
             line-height: 1.5;
@@ -414,7 +414,7 @@
         
         .items-container p {
             display: block;
-            color: #444;
+            color: #888;
             font-size: .75rem;
             font-weight: 300;
             line-height: 1.4;
