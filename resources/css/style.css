@@ -146,8 +146,8 @@
             margin: 1.5rem 2.5rem;
             padding: .5rem 5.5rem;
         }
-        /*Header end*/
-        /*Practicing Section*/
+        /*Header - End*/
+        /*Practicing Section - Start*/
         
         .practice-container {
             /*border: 2px dashed limegreen;*/
@@ -333,8 +333,8 @@
             margin: 0 auto;
             padding: 0 16px 0 16px;
         }
-        /*Practicing Section End*/
-        /*-Start Learning Section - Start*/
+        /*Practicing Section - End*/
+        /*Start Learning Section - Start*/
         
         .learning-container {
             align-items: center;
@@ -343,6 +343,7 @@
             font-family: Gotham;
             display: flex;
             justify-content: center;
+            /*height: auto;*/
             margin: 0 auto;
             width: 1024px;
         }
@@ -354,75 +355,74 @@
             font-weight: bold;
             line-height: 1.2;
             margin: 32px auto;
+            padding: 0;
         }
-        /*.container {
+        
+        .flex-content {
+            /*border: 5px dashed green;*/
+            display: flex;
+            padding: 0 1.5rem;
+        }
+        
+        #courses-section {
+            /*border: 3px dashed blue;*/
             background-color: whitesmoke;
-        }*/
-        
-        .items-container {
-            /*border: 2px dashed blue;*/
-            align-items: flex-start;
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            margin: 0 auto;
-            width: 80%;
+            margin-bottom: 2rem;
+            padding: 0 3.5rem;
         }
         
-        .items-container .items {
+        .courses-row {
+            display: flex;
+        }
+        
+        .course {
+            flex-basis: 33%;
+            margin: 0 1rem 1rem 1rem;
             background-color: #fff;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: flex-start;
-            /*border: 3px dashed red;*/
-            margin-bottom: 32px;
-            width: 250px;
         }
         
-        .items-container img {
-            height: auto;
-            margin-bottom: 0;
-            width: 250px;
+        .media-container {
+            overflow: hidden;
         }
         
-        .items-container .items-content {
-            padding-left: 16px;
-            padding-top: 16px;
-            padding-right: 16px;
+        a {
+            text-decoration: none;
+            color: inherit;
         }
         
-        .items-container h3 {
+        .media-container img,
+        .media-container video {
             display: block;
+            width: 100%;
+        }
+        
+        .course .text-content {
+            /*background-color: #fff;*/
+            padding: 1rem 1rem 1.5rem 1rem;
+        }
+        
+        .course .text-content h3 {
             color: #444;
             font-size: 1.1rem;
             font-weight: 500;
-            margin-bottom: 8px;
-            text-transform: none;
+            line-height: 1.5;
+            margin-bottom: .5rem;
         }
         
-        .items-container .category {
-            display: block;
+        .course .text-content h4 {
             color: #888;
             font-size: 1rem;
             font-weight: 200;
             line-height: 1.5;
-            margin-bottom: 8px;
-            text-transform: uppercase;
+            margin-bottom: .5rem;
         }
         
-        .items-container p {
-            display: block;
+        .course .text-content p {
             color: #888;
-            font-size: .75rem;
-            font-weight: 300;
-            line-height: 1.4;
-            margin-bottom: 24px;
+            font-size: .8rem;
+            font-weight: 200;
+            line-height: 1.5;
         }
-        /*.items-container img {
-    
-}*/
         /*-Start Learning Section - End*/
         /*Footer*/
         
