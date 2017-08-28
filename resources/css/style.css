@@ -151,7 +151,7 @@
         
         .practice-container {
             /*border: 2px dashed limegreen;*/
-            background-color: lightgray;
+            background-color: #fff;
             display: flex;
             justify-content: center;
             /*align-items: center;*/
@@ -161,7 +161,7 @@
         
         .section-container {
             /*border: 2px dashed limegreen;*/
-            background-color: whitesmoke;
+            background-color: #fff;
             display: flex;
             /*height: 550px;*/
             /*max-width: 960px;*/
@@ -187,7 +187,7 @@
             margin: 32px 0;
         }
         
-        .img-section h1 {
+        .img-section h2 {
             /*border: 1px solid blue;*/
             display: inline-block;
             /*display: block;*/
@@ -334,295 +334,108 @@
             padding: 0 16px 0 16px;
         }
         /*Practicing Section End*/
-        /*Account*/
+        /*-Start Learning Section - Start*/
         
-        .about-container {
-            /*border: 2px dashed limegreen;*/
+        .learning-container {
+            align-items: center;
+            background-color: whitesmoke;
+            flex-direction: column;
+            font-family: Gotham;
             display: flex;
             justify-content: center;
-            margin: 3rem auto;
-            max-width: 960px;
+            margin: 0 auto;
+            width: 1024px;
         }
         
-        .about {
-            /*border: 2px dashed red;*/
-            align-items: center;
+        .learning-container h2 {
+            color: #444;
+            display: block;
+            font-size: 1.75rem;
+            font-weight: bold;
+            line-height: 1.2;
+            margin: 32px auto;
+        }
+        /*.container {
+            background-color: whitesmoke;
+        }*/
+        
+        .items-container {
+            /*border: 2px dashed blue;*/
+            align-items: flex-start;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin: 0 auto;
+            width: 80%;
+        }
+        
+        .items-container .items {
+            background-color: #fff;
             display: flex;
             flex-direction: column;
-            justify-content: space-between;
-            line-height: 1.2rem;
-            margin: 3rem 3rem;
-            width: 5rem;
+            align-items: center;
+            justify-content: flex-start;
+            /*border: 3px dashed red;*/
+            margin-bottom: 32px;
+            width: 250px;
         }
         
-        .exams img {
-            width: 3.5rem;
-            margin-bottom: 1rem;
+        .items-container img {
+            height: auto;
+            margin-bottom: 0;
+            width: 250px;
         }
         
-        .exams p {
-            /*border: 1px solid yellow;*/
-            text-align: center;
-            margin: 0;
-            padding: 0;
+        .items-container .items-content {
+            padding-left: 16px;
+            padding-top: 16px;
+            padding-right: 16px;
         }
         
-        .fittings img {
-            width: 4.5rem;
-            margin-bottom: 1rem;
+        .items-container h3 {
+            display: block;
+            color: #444;
+            font-size: 1.1rem;
+            font-weight: 500;
+            margin-bottom: 8px;
+            text-transform: none;
         }
         
-        .fittings p {
-            /*border: 1px solid yellow;*/
-            text-align: center;
-            margin: 0;
-            padding: 0;
-        }
-        
-        .delivery img {
-            width: 5rem;
-            margin-bottom: 1rem;
-        }
-        
-        .delivery p {
-            /* border: 1px solid yellow;*/
-            text-align: center;
-            margin: 0;
-            padding: 0;
-        }
-        /*Account End*/
-        /*Info*/
-        
-        .info-container {
-            /*border: 2px dashed limegreen;*/
-            display: flex;
-            justify-content: center;
-            max-width: 960px;
-            margin: 0 15%;
-            margin-bottom: 5rem;
-            font-family: Helvetica;
-        }
-        
-        .philosophy {
-            /*border: 1px solid blue;*/
-            width: 35%;
-            margin-right: 5%;
-        }
-        
-        .appointments {
-            /*border: 1px solid blue;*/
-            width: 35%;
-            margin-left: 5%;
-        }
-        
-        .info-container p {
-            /*border: 1px solid red;*/
-            padding: 1rem 0;
-            line-height: 1.4;
-        }
-        
-        .heading {
-            /*border: 1px solid blue;*/
-            background-color: cadetblue;
-            color: #fff;
+        .items-container .category {
+            display: block;
+            color: #444;
             font-size: 1rem;
-            font-weight: bold;
-            padding: .5rem 1.25rem;
-            width: 10rem;
+            font-weight: 200;
+            line-height: 1.5;
+            margin-bottom: 8px;
             text-transform: uppercase;
-            text-align: center;
         }
-        /*Info End*/
+        
+        .items-container p {
+            display: block;
+            color: #444;
+            font-size: .75rem;
+            font-weight: 300;
+            line-height: 1.4;
+            margin-bottom: 24px;
+        }
+        /*.items-container img {
+    
+}*/
+        /*-Start Learning Section - End*/
         /*Footer*/
         
-        .footer-container {
-            /* border: 2px dashed limegreen;*/
-            display: flex;
-            max-width: 960px;
-            background-color: azure;
-            margin: 0 auto;
-        }
-        
-        .black-logo {
-            /*border: 1px solid red;*/
-            display: flex;
+        footer {
             align-items: center;
-        }
-        
-        .black-logo img {
-            height: 1.5rem;
-            margin: 4rem 1rem 4rem 2rem;
+            background-color: #fff;
+            display: flex;
+            justify-content: space-between;
+            font-size: .75rem;
+            height: 100px;
+            margin: 0 auto;
+            padding-left: 24px;
+            width: 1024px;
+            text-transform: normal;
         }
         /*Footer End*/
-        /*Media Queries*/
-        /*960 Tablet*/
-        
-        @media only screen and (max-width: 960px) {
-            .header {
-                /*border: 1px solid red;*/
-                height: 22rem;
-                width: 100%;
-            }
-            .nav-container {
-                /*border: 2px dashed blue;*/
-                margin: 0;
-                width: 100%;
-            }
-            .main-banner {
-                display: inline-block;
-                margin-right: 2rem;
-                margin-top: 5rem;
-                padding: 1.5rem 4rem;
-            }
-            .main-banner h1 {
-                font-size: 1.33rem;
-            }
-        }
-        /*480 Mobile*/
-        /*Header*/
-        
-        @media only screen and (min-width: 480px) {
-            .mobile-menu {
-                display: none;
-            }
-        }
-        
-        @media only screen and (max-width: 480px) {
-            .header {
-                /*border: 1px solid red;*/
-                background-position: 20%;
-                height: 17rem;
-                width: 100%;
-            }
-            .nav-container {
-                /*border: 2px dashed blue;*/
-                margin: 0;
-                padding: 1rem;
-                width: 100%;
-            }
-            .main-banner {
-                display: inline-block;
-                margin-right: 2rem;
-                margin-top: 5rem;
-                padding: 1.5rem 4rem;
-            }
-            .main-banner h1 {
-                font-size: 1.33rem;
-            }
-            .logo span {
-                display: none;
-            }
-            .menu {
-                display: none;
-            }
-            .mobile-menu {
-                margin: auto 3rem;
-                padding: 0;
-                text-align: center;
-            }
-            .main-banner {
-                font-size: 1rem;
-                margin: 9rem auto .5rem;
-                padding: 1rem 0;
-                text-align: center;
-                width: 100%;
-            }
-        }
-        /*About*/
-        
-        @media only screen and (max-width: 480px) {
-            .about-container {
-                display: block;
-                margin-bottom: .77rem;
-                margin-top: 3.77rem;
-                width: 100%;
-                font-size: .77rem;
-                line-height: 1;
-                font-family: Helvetica;
-            }
-            .exams {
-                width: 30%;
-                margin: 0 auto;
-                /*padding-bottom: 1.54rem;*/
-            }
-            .exams img {
-                width: 3.5rem;
-                margin-bottom: 0;
-            }
-            .exams p {
-                text-align: center;
-                margin: 1rem 0;
-                padding: 0;
-            }
-            .fittings {
-                width: 20%;
-                margin: 0 auto;
-                /*padding-bottom: 1.54rem;*/
-            }
-            .fittings img {
-                width: 4.5rem;
-                margin-bottom: 0;
-            }
-            .fittings p {
-                text-align: center;
-                margin: 1rem 0;
-            }
-            .delivery {
-                width: 15%;
-                margin: 0 auto
-            }
-            .delivery img {
-                width: 5rem;
-                margin-bottom: 0;
-                margin-top: 0;
-                padding: 0;
-            }
-            .delivery p {
-                text-align: center;
-                margin: 1rem 00;
-            }
-        }
-        
-        @media only screen and (max-width: 480px) {
-            .info-container {
-                display: block;
-                font-family: Helvetica;
-                font-size: .77rem;
-                width: 100%;
-                margin: auto;
-            }
-            .info-container .heading {
-                display: block;
-                margin: 0;
-                padding: auto;
-                text-align: center;
-                text-transform: uppercase;
-                width: 90%;
-            }
-            .info-container p {
-                display: block;
-                width: 90%;
-                margin: 0 auto;
-                line-height: 1rem;
-            }
-            .philosophy {
-                display: block;
-                margin: 0 auto 2rem;
-                width: 90%;
-            }
-            .appointments {
-                display: block;
-                margin: 0 auto 2rem;
-                width: 90%;
-            }
-        }
-        
-        @media only screen and (max-width: 480px) {
-            .black-logo {
-                display: block;
-                margin: 0 auto;
-            }
-            .copyright {
-                display: none;
-            }
-        }
