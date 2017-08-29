@@ -57,7 +57,9 @@ span {
 
 .menu {
     /*border: 1px dashed yellow;*/
+    font-family: Gotham;
     font-size: 14px;
+    font-weight: 300;
 }
 
 .menu ul {
@@ -74,7 +76,6 @@ span {
 .menu ul li:hover {
     /*border-bottom: 1px dashed red;*/
     font-weight: 500;
-    text-decoration: underline;
 }
 
 .menu .products {
@@ -480,9 +481,14 @@ a {
     /*border: 3px dashed blue;*/
     background-color: #fff;
     display: flex;
-    height: auto;
     padding: 0 2rem;
     margin: 0 auto;
+}
+
+video {
+    width: 100%;
+    overflow: hidden;
+    display: block;
 }
 
 .video-section {
@@ -572,18 +578,41 @@ a {
 
 /*Footer*/
 
-#footer {
+footer {
     align-items: center;
     border-top: 1px solid whitesmoke;
     background-color: whitesmoke;
+    color: #888;
     display: flex;
-    justify-content: space-between;
+    font-family: Gotham;
     font-size: .75rem;
+    font-weight: 300;
     height: 100px;
+    justify-content: space-between;
     margin: 0 auto;
     padding: 0 24px;
-    width: 1024px;
     text-transform: normal;
+    vertical-align: middle;
+    width: 1024px;
+}
+
+footer .right a {
+    margin-left: .5rem;
+    padding-left: .75rem;
+}
+
+footer .right .privacy {
+    border-left: 1px solid dimgray;
+}
+
+footer a {
+    text-decoration: none;
+    color: #888;
+}
+
+footer a:hover {
+    color: #444;
+    text-decoration: underline;
 }
 
 
